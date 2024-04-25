@@ -1,0 +1,29 @@
+﻿@model WebApplication5.Models.ArticleUpdateViewModel
+
+@{
+    ViewData["Title"] = "Edit Article";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit Contribution</h1>
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label for="formGroupStudentName" class="form-label">Student Name</label>
+        <input type="text" class="form-control" id="formGroupStudentName" placeholder="" asp-for="StudentName">
+    </div>
+    <div class="mb-3">
+        <label for="formGroupTitle" class="form-label">Title</label>
+        <input type="text" class="form-control" id="formGroupTitle" placeholder="" asp-for="Title">
+    </div>
+    <div class="form-group">
+        <label for="formGroupDescription" class="form-label">Description</label>
+        <textarea class="form-control" id="formGroupDescription" rows="10" cols="80" placeholder="" asp-for="Description"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="formGroupUploadDate" class="form-label">UploadDate</label>
+        <input type="date" class="form-control" id="formGroupUploadDate" placeholder="" asp-for="UploadDate">
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

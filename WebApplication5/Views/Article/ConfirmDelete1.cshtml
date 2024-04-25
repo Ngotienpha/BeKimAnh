@@ -1,0 +1,18 @@
+﻿@model WebApplication5.Models.Article
+
+<h1>Confirm Delete</h1>
+
+<p>Are you sure you want to delete this article?</p>
+<dl>
+    <dt>Student Name:</dt>
+    <dd>@Model.StudentName</dd>
+    <dt>Title:</dt>
+    <dd>@Model.Title</dd>
+    <!-- Hiển thị các thông tin khác của bài viết nếu cần -->
+</dl>
+
+<form asp-controller="Article" asp-action="Delete1" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Delete</button>
+    <a asp-controller="MarketingCoordinator" asp-action="Index1">Cancel</a>
+</form>

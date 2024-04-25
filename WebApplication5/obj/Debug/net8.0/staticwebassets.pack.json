@@ -1,0 +1,517 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication5.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication5.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\024f8504-bcd9-4cd2-b1a5-94b655409946_Name.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\024f8504-bcd9-4cd2-b1a5-94b655409946_Name.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\0afed7d8-ac42-43b6-8515-43d3d0764411_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\0afed7d8-ac42-43b6-8515-43d3d0764411_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\0fe307dc-a48c-4076-8619-fc9d93347348_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\0fe307dc-a48c-4076-8619-fc9d93347348_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\1a0d41a2-b8ed-47ab-88f8-fc03973b6c7f_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\1a0d41a2-b8ed-47ab-88f8-fc03973b6c7f_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\1a737e32-1fee-4554-9996-b1dbdc4c8fa7_Research question.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\1a737e32-1fee-4554-9996-b1dbdc4c8fa7_Research question.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\25b66949-739a-459c-9fdf-1b721b5c0522_Logo.png",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\25b66949-739a-459c-9fdf-1b721b5c0522_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\25becda5-aa16-45fe-9733-84d1bbe14562_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\25becda5-aa16-45fe-9733-84d1bbe14562_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\2732af52-26ed-4e10-8833-8e4e8034df4e_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\2732af52-26ed-4e10-8833-8e4e8034df4e_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\437a7d6d-2b5f-4a92-8f3b-f82daf12c303_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\437a7d6d-2b5f-4a92-8f3b-f82daf12c303_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\5992c448-0a24-410a-997e-169220fc3be1_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\5992c448-0a24-410a-997e-169220fc3be1_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\6fcd1da4-ff55-4f9c-9134-6e25f3d3a6e6_Research question.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\6fcd1da4-ff55-4f9c-9134-6e25f3d3a6e6_Research question.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\83d71123-14db-4261-ab02-0ce8fcb3e4af_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\83d71123-14db-4261-ab02-0ce8fcb3e4af_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\90fce496-71b2-4c08-9961-5e1a331da94b_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\90fce496-71b2-4c08-9961-5e1a331da94b_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\967e3aed-c756-4813-93f6-53a1aad7e94d_Name.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\967e3aed-c756-4813-93f6-53a1aad7e94d_Name.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\b73b32c7-8287-4bc3-8734-1c5477a591d3_Template example.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\b73b32c7-8287-4bc3-8734-1c5477a591d3_Template example.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\c491aa36-eb63-4c33-9cdf-e68bb97d1dc5_Template example.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\c491aa36-eb63-4c33-9cdf-e68bb97d1dc5_Template example.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\c7f383bc-458f-487f-a398-1161fed7a169_Topup Grade Guide.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\c7f383bc-458f-487f-a398-1161fed7a169_Topup Grade Guide.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\c9111e56-6d06-4cca-9592-b19586cfba4b_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\c9111e56-6d06-4cca-9592-b19586cfba4b_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\ccd8ced4-daff-4bc9-be31-0e7a175166ee_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\ccd8ced4-daff-4bc9-be31-0e7a175166ee_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\d72145ce-1ec3-41db-b894-387e94a2bad9_Research question.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\d72145ce-1ec3-41db-b894-387e94a2bad9_Research question.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\df2dbfd2-9e13-456b-9d93-b9cd85118010_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\df2dbfd2-9e13-456b-9d93-b9cd85118010_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\e9fb3f21-f5d9-44e6-ae52-82405a6b5f6e_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\e9fb3f21-f5d9-44e6-ae52-82405a6b5f6e_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\ef1a0cd4-f885-407e-8b13-c6cc7b805366_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\ef1a0cd4-f885-407e-8b13-c6cc7b805366_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Documents\\f81bde89-f7d5-4098-8984-32eaf17b2281_Name.docx",
+      "PackagePath": "staticwebassets\\Articles\\Documents\\f81bde89-f7d5-4098-8984-32eaf17b2281_Name.docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\1ac685e7-2714-42bc-8730-38db205bc2e6_AEGLV5Th.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\1ac685e7-2714-42bc-8730-38db205bc2e6_AEGLV5Th.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\361373ed-2567-4a18-a176-833117429ec2_Logo.png",
+      "PackagePath": "staticwebassets\\Articles\\Images\\361373ed-2567-4a18-a176-833117429ec2_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\3c16303c-c1eb-4f61-8d4e-23f8cc5b1b9f_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\3c16303c-c1eb-4f61-8d4e-23f8cc5b1b9f_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\46114d3c-e8b2-45a4-9569-1e0cb69f34e1_linear-textured-ac-milan-wblhjxsbccpqdwij.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\46114d3c-e8b2-45a4-9569-1e0cb69f34e1_linear-textured-ac-milan-wblhjxsbccpqdwij.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\474e93c7-01e3-4eab-929e-df9f952e88b7_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\474e93c7-01e3-4eab-929e-df9f952e88b7_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\4c28c9be-68b1-4118-9f0e-ad5545c9358c_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\4c28c9be-68b1-4118-9f0e-ad5545c9358c_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\6009e996-7aba-4f56-8b86-f2ece4691587_Logo.png",
+      "PackagePath": "staticwebassets\\Articles\\Images\\6009e996-7aba-4f56-8b86-f2ece4691587_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\78001482-d704-49f2-bfb8-c640be01fcbd_page_1_thumb_large.webp",
+      "PackagePath": "staticwebassets\\Articles\\Images\\78001482-d704-49f2-bfb8-c640be01fcbd_page_1_thumb_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\8fa643a0-3d08-4722-bd31-1aecae8522d2_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\8fa643a0-3d08-4722-bd31-1aecae8522d2_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\8fef840c-2690-4e48-958d-cea0d1ad3e17_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\8fef840c-2690-4e48-958d-cea0d1ad3e17_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\97197be4-2513-4011-a338-301cba0d348e_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\97197be4-2513-4011-a338-301cba0d348e_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\Huy.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\Huy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\Logo.png",
+      "PackagePath": "staticwebassets\\Articles\\Images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\Nam.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\Nam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\Phat.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\Phat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\Phuc.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\Phuc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\Quan.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\Quan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\Tung.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\Tung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\aa6b5533-5408-4ffc-88cb-b409757cfccf_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\aa6b5533-5408-4ffc-88cb-b409757cfccf_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\add165bb-4f4a-46ec-b6cb-96d0908095ce_5unh82.png",
+      "PackagePath": "staticwebassets\\Articles\\Images\\add165bb-4f4a-46ec-b6cb-96d0908095ce_5unh82.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\ae3f8e18-c9c6-4fa6-8f47-5caa1bf2801e_5unh82.png",
+      "PackagePath": "staticwebassets\\Articles\\Images\\ae3f8e18-c9c6-4fa6-8f47-5caa1bf2801e_5unh82.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\ae4b999a-1cdc-43d3-b942-82f80bfff926_page_1.webp",
+      "PackagePath": "staticwebassets\\Articles\\Images\\ae4b999a-1cdc-43d3-b942-82f80bfff926_page_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\b4872765-2eb3-400c-9c3d-c31738ee9861_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\b4872765-2eb3-400c-9c3d-c31738ee9861_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\b99fc005-49fe-418a-889b-5276b48b14ab_433130339_795539179091361_6658498226998478935_n.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\b99fc005-49fe-418a-889b-5276b48b14ab_433130339_795539179091361_6658498226998478935_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\ccb29fdb-6dbe-43e0-a50f-d351a1ee8470_COMP1640-Ngo Tien Phat-CW(Group report).docx",
+      "PackagePath": "staticwebassets\\Articles\\Images\\ccb29fdb-6dbe-43e0-a50f-d351a1ee8470_COMP1640-Ngo Tien Phat-CW(Group report).docx"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\d3b39ed9-cf0a-4268-a5c1-f8c5452554c9_Greenwich_Cover.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\d3b39ed9-cf0a-4268-a5c1-f8c5452554c9_Greenwich_Cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\d56e48e2-677c-42ef-96e9-ff4e31919b22_Logo.png",
+      "PackagePath": "staticwebassets\\Articles\\Images\\d56e48e2-677c-42ef-96e9-ff4e31919b22_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\e0a578b6-25df-491a-bbee-b87b55f61b22_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\e0a578b6-25df-491a-bbee-b87b55f61b22_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\e251087e-6130-45df-85f5-d21af694e5be_Greenwich.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\e251087e-6130-45df-85f5-d21af694e5be_Greenwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\e2bf58af-1e00-44d1-8002-0654f35ac306_cover3.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\e2bf58af-1e00-44d1-8002-0654f35ac306_cover3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\e48c69e3-5298-48c7-8807-8a0cef14d585_Logo.png",
+      "PackagePath": "staticwebassets\\Articles\\Images\\e48c69e3-5298-48c7-8807-8a0cef14d585_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\logo01.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\logo01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\logo02.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\logo02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\logo03.jpeg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\logo03.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\logo04.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\logo04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\Articles\\Images\\logo05.jpg",
+      "PackagePath": "staticwebassets\\Articles\\Images\\logo05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\logo\\logo.jpg",
+      "PackagePath": "staticwebassets\\logo\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\logo\\logo1.png",
+      "PackagePath": "staticwebassets\\logo\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5\\wwwroot\\logo\\logo2.jpg",
+      "PackagePath": "staticwebassets\\logo\\logo2.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication5.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApplication5.props",
+      "PackagePath": "build\\WebApplication5.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication5.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication5.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication5.props",
+      "PackagePath": "buildTransitive\\WebApplication5.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

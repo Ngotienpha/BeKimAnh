@@ -1,0 +1,96 @@
+﻿@model ArticleListViewModel
+
+@{
+    ViewData["Title"] = "Hello, Marketing Manager";
+}
+
+<style>
+    .article-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .article-number {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .details-container {
+        display: none;
+    }
+
+    .show-details {
+        display: block;
+    }
+</style>
+
+<h1>List of Articles</h1>
+
+@foreach (var article in Model.Articles.Where(a => a.FacultyId == 4)) // Filter articles for IT faculty (FacultyId == 1)
+{
+    <div class="article-card">
+        <span class="article-number">Article @article.Id</span>
+        <p>Id: @article.Id</p>
+        <p>Student Name: @article.StudentName</p>
+        <p>Title: @article.Title</p>
+
+        <button class="details-btn" data-article-id="@article.Id">Details</button>
+
+        <div id="details-@article.Id" class="details-container">
+            <p>Id: @article.Id</p>
+            <p>Student Name: @article.StudentName</p>
+            <p>Title: @article.Title</p>
+            <p>Description: @article.Description</p>
+            <p>Upload Date: @article.UploadDate</p>
+            <p>Faculty: @article.Faculty.Name</p>
+
+            @if (!string.IsNullOrEmpty(article.ImageFile))
+            {
+                <img src="~/Articles/Images/@article.ImageFile" alt="Image" />
+            }
+
+            @if (!string.IsNullOrEmpty(article.DocumentFile))
+            {
+                <a href="~/Articles/Documents/@article.DocumentFile" target="_blank">View Document</a>
+            }
+
+            <p>
+            </p>
+            <p>
+                <button class="download-btn" data-article-id="@article.Id">Download .Zip File</button>
+            </p>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.details-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const articleId = this.getAttribute('data-article-id');
+                const detailsContainer = document.getElementById(`details-${articleId}`);
+
+                if (detailsContainer.classList.contains('show-details')) {
+                    detailsContainer.classList.remove('show-details');
+                } else {
+                    document.querySelectorAll('.details-container').forEach(container => {
+                        container.classList.remove('show-details');
+                    });
+                    detailsContainer.classList.add('show-details');
+                }
+            });
+        });
+
+        document.querySelectorAll('.download-btn').forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                e.stopPropagation(); // Prevent details section from closing
+                const articleId = this.getAttribute('data-article-id');
+                // Redirect to download endpoint for the specific article
+                window.location.href = '@Url.Action("DownloadArticle", "Manager")?articleId=' + articleId;
+            });
+        });
+    </script>
+}
+

@@ -1,0 +1,84 @@
+﻿@model ArticleListViewModel
+
+@{
+    ViewData["Title"] = "Hello, Guest";
+}
+
+<style>
+    .article-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .article-number {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .details-container {
+        display: none;
+    }
+
+    .show-details {
+        display: block;
+    }
+</style>
+
+<h1>List of Published Articles</h1>
+
+@{
+    int facultyId = 5; // FacultyId mà bạn muốn hiển thị bài báo của
+}
+
+@foreach (var article in Model.Articles.Where(a => a.IsPublished && a.FacultyId == facultyId))
+{
+    <div class="article-card">
+        <span class="article-number">Article @article.Id</span>
+        <p>Id: @article.Id</p>
+        <p>Student Name: @article.StudentName</p>
+        <p>Title: @article.Title</p>
+
+        <button class="details-btn" data-article-id="@article.Id">Details</button>
+
+        <div id="details-@article.Id" class="details-container">
+            <p>Id: @article.Id</p>
+            <p>Student Name: @article.StudentName</p>
+            <p>Title: @article.Title</p>
+            <p>Description: @article.Description</p>
+            <p>Upload Date: @article.UploadDate</p>
+            <p>Faculty: @article.Faculty.Name</p>
+
+            @if (!string.IsNullOrEmpty(article.ImageFile))
+            {
+                <img src="~/Articles/Images/@article.ImageFile" alt="Image" />
+            }
+
+            @if (!string.IsNullOrEmpty(article.DocumentFile))
+            {
+                <a href="~/Articles/Documents/@article.DocumentFile" target="_blank">View Document</a>
+            }
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.details-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const articleId = this.getAttribute('data-article-id');
+                const detailsContainer = document.getElementById(`details-${articleId}`);
+
+                if (detailsContainer.classList.contains('show-details')) {
+                    detailsContainer.classList.remove('show-details');
+                } else {
+                    document.querySelectorAll('.details-container').forEach(container => {
+                        container.classList.remove('show-details');
+                    });
+                    detailsContainer.classList.add('show-details');
+                }
+            });
+        });
+    </script>
+}

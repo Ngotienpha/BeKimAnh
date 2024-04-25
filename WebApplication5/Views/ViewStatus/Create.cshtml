@@ -1,0 +1,25 @@
+﻿@model WebApplication5.Models.ViewStatus
+
+@{
+    ViewData["Title"] = "Checkpoint and Feedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Checkpoint and Feedback</h1>
+
+
+<form asp-action="Create">
+    <div class="mb-3">
+        <label for="pointSelect" class="form-label">Select Point</label>
+        <select id="pointSelect" asp-for="Status">
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput" class="form-label">Feedback</label>
+        <textarea class="form-control" id="formGroupExampleInput" rows="10" cols="80" placeholder="" asp-for="Feedback"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>

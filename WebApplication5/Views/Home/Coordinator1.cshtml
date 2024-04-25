@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Marketing Coordinator IT";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Welcome to Marketing Coordinator IT Index Page</h1>
+<p>Hello,  This is the Marketing Coordinator IT Index page content.</p>
+
+<button id="submitBtn" class="btn btn-primary">View Contribution</button>
+
+@section Scripts {
+<script asp-controller="Article" asp-action="Index">
+    document.getElementById("submitBtn").addEventListener("click", function () {
+        window.location.href = "/MarketingCoordinator/Index";
+    });
+</script>
+}

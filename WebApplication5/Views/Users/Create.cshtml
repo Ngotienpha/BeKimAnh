@@ -1,0 +1,40 @@
+﻿@model WebApplication5.Models.Users
+
+@{
+    ViewData["Title"] = "Create User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create User</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Email" class="control-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password" class="control-label">Password</label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label for="roleSelect" class="form-label">Role</label>
+        <select id="roleSelect" asp-for="Role">
+            <option value="Admin">Admin</option>
+            <option value="Manager">Manager</option>
+            <option value="Coordinator 1">Coordinator 1</option>
+            <option value="Coordinator 2">Coordinator 2</option>
+            <option value="Coordinator 3">Coordinator 3</option>
+            <option value="Coordinator 4">Coordinator 4</option> 
+            <option value="Coordinator 5">Coordinator 5</option>
+            <option value="Student IT">Student IT</option>
+            <option value="Student Business">Student Business</option>
+            <option value="Student Graphic Design">Student Graphic Design</option>
+            <option value="Student Doctor">Student Doctor</option>
+            <option value="Student Music">Student Music</option>
+            <option value="Guest">Guest</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

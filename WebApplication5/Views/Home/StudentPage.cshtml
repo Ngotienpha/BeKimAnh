@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Student Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Welcome to Student Index Page</h1>
+<p>Hello,! This is the Student Index page content.</p>
+
+<button id="submitBtn" class="btn btn-primary">Submit Your Contribution</button>
+
+<script asp-controller="Article" asp-action="Add">
+    document.getElementById("submitBtn").addEventListener("click", function () {
+        window.location.href = "/Article/Add";
+    });
+</script>
+
+<button id="viewBtn" class="btn btn-primary">View Contributions</button>
+
+<script asp-controller="Article" asp-action="Index">
+    document.getElementById("viewBtn").addEventListener("click", function () {
+        window.location.href = "/Article/Index";
+    });
+</script>

@@ -1,0 +1,72 @@
+﻿@model ContributionStatisticsViewModel
+@{
+    ViewData["Title"] = "Guest Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <style>
+        .report-content {
+            display: none;
+            margin-top: 20px;
+        }
+
+            .report-content.active {
+                display: block;
+            }
+    </style>
+</head>
+<body>
+
+
+        <button id="statisticsBtn">Statistics</button>
+        <button id="exceptionBtn">Exception Reports</button>
+
+
+    <!-- Nội dung trang -->
+    <div id="statisticsContent" class="report-content active">
+        <h2>Statistics</h2>
+        <ul>
+            <a href="@Url.Action("GetContributionStatistics", "Guest")" class="btn btn-primary">View Statistics</a>
+
+        </ul>
+    </div>
+
+    <div id="exceptionContent" class="report-content">
+        <h2>Exception Reports</h2>
+        <ul>
+            <li>Contributions without a comment:</li>
+            <form asp-action="RedirectToFacultyPage" asp-controller="Guest" method="post">
+                <div class="form-group">
+                    <label for="facultyDropdown">Choose Faculty:</label>
+                    <select class="form-control" id="facultyDropdown" name="selectedFaculty">
+                        <option value="IT">IT</option>
+                        <option value="Business">Business</option>
+                        <option value="GraphicDesign">Graphic Design</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Music">Music</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Go</button>
+            </form>
+        </ul>
+    </div>
+
+    <script>
+        // Lắng nghe sự kiện click vào button "Statistics"
+        document.getElementById("statisticsBtn").addEventListener("click", function () {
+            document.getElementById("statisticsContent").classList.add("active");
+            document.getElementById("exceptionContent").classList.remove("active");
+        });
+
+        // Lắng nghe sự kiện click vào button "Exception Reports"
+        document.getElementById("exceptionBtn").addEventListener("click", function () {
+            document.getElementById("statisticsContent").classList.remove("active");
+            document.getElementById("exceptionContent").classList.add("active");
+        });
+    </script>
+
+</body>
+</html>

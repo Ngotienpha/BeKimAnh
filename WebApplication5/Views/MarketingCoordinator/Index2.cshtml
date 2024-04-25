@@ -1,0 +1,70 @@
+﻿@model ArticleListViewModel
+
+@{
+    ViewData["Title"] = "Hello, Marketing Coordinator Graphic Design";
+}
+
+<style>
+    .article-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+        .article-card img {
+            max-width: 100px;
+            max-height: 100px;
+            margin-bottom: 5px;
+        }
+
+    .article-number {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .edit-btn {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+</style>
+
+<h1>List of Articles</h1>
+
+@{
+    int articleNumber = 1;
+}
+
+@foreach (var article in Model.Articles)
+{
+    <div class="article-card">
+        <span class="article-number">Article @articleNumber</span>
+        <h2>@article.Title</h2>
+        <p>@article.Description</p>
+        <p>Student Name: @article.StudentName</p>
+        <p>Upload Date: @article.UploadDate</p>
+        <p>Faculty: @article.Faculty.Name</p>
+
+        @if (!string.IsNullOrEmpty(article.ImageFile))
+        {
+            <img src="~/Articles/Images/@article.ImageFile" alt="Image" />
+        }
+
+        @if (!string.IsNullOrEmpty(article.DocumentFile))
+        {
+            <a href="~/Articles/Documents/@article.DocumentFile" target="_blank">View Document</a>
+        }
+
+        <a class="edit-btn" asp-controller="Article" asp-action="Edit2" asp-route-id="@article.Id">Edit</a>
+        <a class="edit-btn" asp-controller="Article" asp-action="ConfirmDelete2" asp-route-id="@article.Id">Delete</a>
+        <a href="@Url.Action("PublishArticle2", "MarketingCoordinator", new { articleId = article.Id })">Publish</a>
+    </div>
+    articleNumber++;
+}

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Admin Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Welcome to Admin Index Page</h1>
+<p>Hello,! This is the Admin Index page content.</p>
+
+<button id="submitBtn" class="btn btn-primary">Manage Faculty</button>
+
+<script asp-controller="Admin" asp-action="Index">
+    document.getElementById("submitBtn").addEventListener("click", function () {
+        window.location.href = "/Admin/Index";
+    });
+</script>
+

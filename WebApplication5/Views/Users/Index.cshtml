@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WebApplication5.Models.Users>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h2>List Users</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create User</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Role)
+                </td>
+                <td>
+                    @Html.ActionLink("✏️", "Edit", new { id = item.UserId }, new { @class = "button-shiny warning" })
+                </td>
+                <td>
+                    @Html.ActionLink("🗑️", "Delete", new { id = item.UserId }, new { @class = "button-shiny danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

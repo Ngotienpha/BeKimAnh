@@ -1,0 +1,27 @@
+﻿@model ArticleListViewModel
+
+@{
+    ViewData["Title"] = "Manager Page";
+}
+
+<h1>Welcome, Marketing Manager!</h1>
+
+<form asp-action="RedirectToFacultyPage" asp-controller="Manager" method="post">
+    <div class="form-group">
+        <label for="facultyDropdown">Choose Faculty:</label>
+        <select class="form-control" id="facultyDropdown" name="selectedFaculty">
+            <option value="IT">IT</option>
+            <option value="Business">Business</option>
+            <option value="GraphicDesign">Graphic Design</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Music">Music</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Go</button>
+</form>
+
+@section Scripts {
+    <script>
+        // Các script liên quan đến trang
+    </script>
+}

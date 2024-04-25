@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - University Magazine</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication5.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+               
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <a class="navbar-brand navbar-logo">
+                            <img src="~/logo/logo1.png" alt="Image Placeholder" class="logo-small">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <li class="navbar-brand">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AdminPage">Faculty</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">List Users</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ViewStatus" asp-action="Index">List Feedback</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Student"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="StudentPage">Student Submission</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Manager"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ManagerPage">View and Download Contributions</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Manager" asp-action="GetContributionStatistics">Statistic</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Coordinator 1"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Coordinator1">Marketing Coordinator IT Page</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Coordinator 2"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Coordinator2">Marketing Coordinator Business Page</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Coordinator 3"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Coordinator3">Marketing Coordinator Graphic Design</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Coordinator 4"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Coordinator4">Marketing Coordinator Doctor</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Coordinator 5"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Coordinator5">Marketing Coordinator Music</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Guest"))
+                        {
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Guest">Guest Page</a>
+                            </li>
+                            <li class="navbar-brand">
+                                <a class="nav-link text-dark"> Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="navbar-text ms-auto">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="navbar-text ms-auto">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - WebApplication5 </a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
